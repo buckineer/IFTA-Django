@@ -50,7 +50,7 @@ There are currently 3 services in use: the api (Django App), the db (the postgrS
 
 1. Clone the repo:
     ```bash
-    git clone https://github.com/Ceci-Aguilera/ifta_filing_django_api.git
+    git clone repository_link
     ```
 1. Configure the environment variables.
     1. Copy the content of the example env file that is inside the truck_signs_designs folder into a .env file:
@@ -106,7 +106,7 @@ There are currently 3 services in use: the api (Django App), the db (the postgrS
 
 1. Clone the repo:
     ```bash
-    git clone https://github.com/Ceci-Aguilera/truck_signs_api.git
+    git clone {repository link}
     ```
 1. Configure a virtual env and set up the database. See [Link for configuring Virtual Environment](https://docs.python-guide.org/dev/virtualenvs/) and [Link for Database setup](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04).
 1. Configure the environment variables.
@@ -159,7 +159,7 @@ There are currently 3 services in use: the api (Django App), the db (the postgrS
 ## Deploy on VPS
 1. Clone the repo:
     ```bash
-    git clone https://github.com/Ceci-Aguilera/ifta_filing_django_api
+    git clone repository_link
     ```
 1. Install the dependencies:
     ```bash
@@ -196,8 +196,7 @@ There are currently 3 services in use: the api (Django App), the db (the postgrS
 ### Docker
 - [Docker Oficial Documentation](https://docs.docker.com/)
 - Dockerizing Django, PostgreSQL, guinicorn, and Nginx:
-    - Github repo of sunilale0: [Link](https://github.com/sunilale0/django-postgresql-gunicorn-nginx-dockerized/blob/master/README.md#nginx)
-    - My repo to Dockerize Django + Postgresql + Nginx + React js: [Ceci-Aguilera/django-react-nginx-mysql-docker](https://github.com/Ceci-Aguilera/django-react-nginx-mysql-docker)
+    - Github repo of sunilale0: [Link](https://github.com/sunilale0/django-postgresql-gunicorn-nginx-dockerized/blob/master/README.md#nginx)    
     - Michael Herman article on testdriven.io: [Link](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/)
 ### Django and DRF
 - [Django Official Documentation](https://docs.djangoproject.com/en/4.0/)
